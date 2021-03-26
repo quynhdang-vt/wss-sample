@@ -21,3 +21,9 @@ HTTP endpoints:
 Must support multi-clients
 
 
+See samples:
+
+https://yalantis.com/blog/how-to-build-websockets-in-go/
+
+https://tutorialedge.net/projects/chat-system-in-go-and-react/part-4-handling-multiple-clients/#websocketgo 
+
