@@ -3,17 +3,19 @@
 
 
 ### Server 
-    HTTP endpoints:
-      /wss/  <-- for websocket communications 
-      /general/ <-- for non-wss to interact indirectly with the wss clients, eg. list all clients, post a message to a client given its ids
+
+HTTP endpoints:
+    
+  * `/wss/`  <-- for websocket communications 
+  * `/general/` <-- for non-wss to interact indirectly with the wss clients, eg. list all clients, post a message to a client given its ids
 
 
 ### WSS client
 
-    Will go tto the /wss/ endpoint at first then :
+ Will go tto the /wss/ endpoint at first then :
 
-       * PostMessage <- given a message of certain json schema
-       * ReadMessage <- from server and provide handlers
+ * PostMessage <- given a message of certain json schema
+ * ReadMessage <- from server and provide handlers
 
 
 Must support multi-clients
